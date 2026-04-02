@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MathMaster Pro</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="calculator">
+<div class="header">
+<h1>Math<span>Master</span> Pro</h1>
+<button class="theme-toggle" id="themeToggle">🌙</button>
+</div>
+<div class="display">
+<div class="previous-operand" id="previousOperand"></div>
+<div class="current-operand" id="currentOperand">0</div>
+</div>
+<div class="history" id="history">
+<div class="history-header">
+<span>History</span>
+<button class="clear-history" id="clearHistory">Clear</button>
+</div>
+<div class="history-list" id="historyList"></div>
+</div>
+<div class="buttons">
+<button class="btn clear" data-key="AC">AC</button>
+<button class="btn clear" data-key="CE">CE</button>
+<button class="btn op" data-key="÷">÷</button>
+<button class="btn op" data-key="×">×</button>
+<button class="btn num" data-key="7">7</button>
+<button class="btn num" data-key="8">8</button>
+<button class="btn num" data-key="9">9</button>
+<button class="btn op" data-key="-">-</button>
+<button class="btn num" data-key="4">4</button>
+<button class="btn num" data-key="5">5</button>
+<button class="btn num" data-key="6">6</button>
+<button class="btn op" data-key="+"">+</button>
+<button class="btn num span-2" data-key="1">1</button>
+<button class="btn num" data-key="2">2</button>
+<button class="btn num" data-key="3">3</button>
+<button class="btn num span-2 equals" data-key="=">=</button>
+<button class="btn num zero span-2" data-key="0">0</button>
+<button class="btn num" data-key=".">.</button>
+</div>
+<div class="advanced-buttons">
+<button class="btn advanced" data-key="√">√</button>
+<button class="btn advanced" data-key="%">%</button>
+<button class="btn advanced" data-key="x²">x²</button>
+<button class="btn advanced" data-key="1/x">1/x</button>
+<button class="btn advanced" data-key="⌫">⌫</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
